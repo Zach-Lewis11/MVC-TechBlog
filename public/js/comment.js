@@ -22,5 +22,5 @@ const submitComment = async function(event) {
     }
   };
   
-  document.querySelector('#new-comment-form').addEventListener('submit', submitComment);
+  document.querySelector('#new-comment').addEventListener('submit', submitComment);
   

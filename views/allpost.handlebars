@@ -1,0 +1,17 @@
+<div class="posts li">
+    {{#each posts}}
+      <article  class="card">
+        <div>
+            <h3>
+                <a href="/post/{{id}}">{{title}}</a>
+            </h3>
+            <p>
+                Post created by {{User.username}} on {{format_date createdAt}}
+            </p>
+        </div>
+        <div class="card-body">
+            {{body}}
+        </div>
+      </article>
+      {{/each}}
+</div>

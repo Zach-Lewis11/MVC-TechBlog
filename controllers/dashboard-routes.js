@@ -12,7 +12,7 @@ router.get('/', hasAuth, async (req, res) => {
 
     const posts = userPosts.map((post) => post.get({ plain: true }));
 
-    res.render('all-posts-admin', {
+    res.render('allposts-edit', {
       layout: 'dashboard',
       posts,
     });

@@ -31,4 +31,4 @@ const deletePost = async function() {
   document.location.replace('/dashboard');
 };
 
-document.querySelector('#delete-btn').addEventListener('click', deletePost);
+document.querySelector('#delete').addEventListener('click', deletePost);
