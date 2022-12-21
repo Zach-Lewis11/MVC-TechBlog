@@ -1,8 +1,10 @@
-<div class="posts li">
+<div class="posts ">
     {{#each posts}}
-        <a class="list-item" href="/dashboard/edit/{{id}}">
-            <h2>{{title}}</h2>
-            <p>{{body}}</p>        
-        </a>
+        <div class="card">
+            <a  class="list-item " href="/dashboard/edit/{{id}}">
+                <h2>{{title}}</h2>
+                <p>{{body}}</p>        
+            </a>
+        </div>
       {{/each}}
 </div>
